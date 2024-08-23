@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var mongodb = require('mongodb');
 var objectId = mongodb.ObjectId;
-var getDB = require('../common/db-connection');
+var getDB = require('../common/db_connection');
 
 /* GET Api Testing. */
 router.get('/', function(req, res, next) {
